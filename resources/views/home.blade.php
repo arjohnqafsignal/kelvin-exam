@@ -15,6 +15,8 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    Go to <a href="{{ route('subscribers.index') }}">subscribers</a>
                 </div>
             </div>
         </div>
